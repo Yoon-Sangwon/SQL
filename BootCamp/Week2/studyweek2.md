@@ -33,7 +33,7 @@
 
 이를 표현할 그림은? 정답은 없음. 타당하기만 됨
 
-![](C:\Users\Yoon\Desktop\직무부트캠프\Project\Week2\ERD.png)
+![](.\ERD.png)
 
 RDB에서는 아래 모델이 더 적절함
 
@@ -49,7 +49,7 @@ WHY? RDB에서는 내포관계(표 안의 표)는 허용하지 않음
 
 이는 여러개의 표로 나누면서 해결이 가능해진다.
 
-![](C:\Users\Yoon\Desktop\직무부트캠프\Project\Week2\ERD2.png)
+![](.\ERD2.png)
 
 표를 나눈 것의 장점
 
@@ -81,7 +81,7 @@ Attribute는 파일이라고 생각할 것
 
 이것은 Join으로 연결함
 
-<img src="C:\Users\Yoon\Desktop\직무부트캠프\Project\Week2\Relation.png" style="zoom:50%;" />
+<img src=".\Relation.png" style="zoom:50%;" />
 
 
 
@@ -119,13 +119,13 @@ UI가 원인이 되어서 DB를 변경하는 결과를 낳음
 
 쓰기 화면에서 알 수 있음
 
-<img src="C:\Users\Yoon\Desktop\직무부트캠프\Project\Week2\ERD3.png" style="zoom:30%;" />
+<img src=".\ERD3.png" style="zoom:30%;" />
 
 
 
 속성 정의
 
-<img src="C:\Users\Yoon\Desktop\직무부트캠프\Project\Week2\Atti.png" style="zoom:45%;" />
+<img src=".\Atti.png" style="zoom:45%;" />
 
 
 
@@ -173,7 +173,7 @@ alternate key 는 성능향상을 위해 secondary index를 걸기에 아주 좋
 
 
 
-<img src="C:\Users\Yoon\Desktop\직무부트캠프\Project\Week2\Atti.png" style="zoom:45%;" />
+<img src=".\Atti.png" style="zoom:45%;" />
 
 다음 상황에서는 key를 설정할만한 것이 없으므로 인조키인 글 ID를 만들어줌
 
@@ -183,7 +183,7 @@ Relationship
 
 relationship은 무엇이 되는가?
 
-![](C:\Users\Yoon\Desktop\직무부트캠프\Project\Week2\Relation2.png)
+![](.\Relation2.png)
 
 각 표들은 데이터로서 연결되어 있다. 이때 행을 식별하는 유일무의한 식별자를 PK라고 함.
 
@@ -195,17 +195,17 @@ relationship은 무엇이 되는가?
 
 이 관계를 그림으로 어떻게 표현하는가?
 
-<img src="C:\Users\Yoon\Desktop\직무부트캠프\Project\Week2\ERD 그림.png" style="zoom:60%;" />
+<img src=".\ERD 그림.png" style="zoom:60%;" />
 
 Relationship에서 꼭 따져봐야하는 요소
 
 Cardinality (like no)
 
-<img src="C:\Users\Yoon\Desktop\직무부트캠프\Project\Week2\11관계.png" style="zoom:30%;" />
+<img src=".\11관계.png" style="zoom:30%;" />
 
 위는 1:1 관계이다. 이를 ERD에서는 우측과 같이 표현한다.
 
-<img src="C:\Users\Yoon\Desktop\직무부트캠프\Project\Week2\1many.png" style="zoom:40%;" />
+<img src=".\1many.png" style="zoom:40%;" />
 
 그리고 1대다, 다대다는 위와 같이 표현한다.
 
@@ -213,13 +213,13 @@ Cardinality (like no)
 
 Optionality
 
-<img src="C:\Users\Yoon\Desktop\직무부트캠프\Project\Week2\ERD4.png" style="zoom:30%;" />
+<img src=".\ERD4.png" style="zoom:30%;" />
 
  위 그림에서 저자에게 댓글은 옵션이다. 이때 ERD(다이어그램)에서 O의 위치를 잘 기억할 것. 반대로 댓글에게 저자는 필수(Mandatory)다. 이때 ERD에서 |로 표시한다.
 
 이제 둘을 합쳐서 ERD를 완성해보자.
 
-<img src="C:\Users\Yoon\Desktop\직무부트캠프\Project\Week2\ERD완성.png" style="zoom: 50%;" />
+<img src=".\ERD완성.png" style="zoom: 50%;" />
 
 
 
